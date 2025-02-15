@@ -1,0 +1,15 @@
+{
+    "Województwo Podlaskie" : {
+        "R" : 13,
+        "G" : 177,
+        "B" : 0,
+        "PNG_R" : 13,
+        "PNG_G" : 177,
+        "PNG_B" : 0,
+        "PNG_A" : 255,
+        "Tag" : "PDL",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

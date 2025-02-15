@@ -1,0 +1,12 @@
+{
+    "NaturalResourceScale" : 50000,
+    "BuildingResourceScale" : 100,
+    "ArmyAttackScale" : 5,
+    "ArmyDefenseScale" : 5,
+    "ArmyInitiativeScale" : 5,
+    "UpgradeCost" : 1000,
+    "DesiredSavings" : {
+        "Gold" : 2000,
+        "Manpower" : 2000
+    }
+}

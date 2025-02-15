@@ -1,0 +1,15 @@
+{
+    "Województwo Świętokrzyskie" : {
+        "R" : 98,
+        "G" : 255,
+        "B" : 220,
+        "PNG_R" : 98,
+        "PNG_G" : 255,
+        "PNG_B" : 220,
+        "PNG_A" : 255,
+        "Tag" : "LOD",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

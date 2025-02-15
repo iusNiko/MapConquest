@@ -1,0 +1,15 @@
+{
+    "Germany" : {
+        "R" : 0,
+        "G" : 255,
+        "B" : 0,
+        "PNG_R" : 0,
+        "PNG_G" : 255,
+        "PNG_B" : 0,
+        "PNG_A" : 255,
+        "Tag" : "GER",
+        "Attack" : 10,
+        "Defense" : 10,
+        "Initiative" : 10
+    }
+}

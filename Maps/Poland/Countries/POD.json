@@ -1,0 +1,15 @@
+{
+    "Województwo Podkarpackie" : {
+        "R" : 119,
+        "G" : 179,
+        "B" : 255,
+        "PNG_R" : 119,
+        "PNG_G" : 179,
+        "PNG_B" : 255,
+        "PNG_A" : 255,
+        "Tag" : "POD",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

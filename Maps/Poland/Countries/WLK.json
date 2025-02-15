@@ -1,0 +1,15 @@
+{
+    "Województwo Wielkopolskie" : {
+        "R" : 255,
+        "G" : 110,
+        "B" : 101,
+        "PNG_R" : 255,
+        "PNG_G" : 110,
+        "PNG_B" : 101,
+        "PNG_A" : 255,
+        "Tag" : "WLK",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

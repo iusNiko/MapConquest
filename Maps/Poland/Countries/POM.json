@@ -1,0 +1,15 @@
+{
+    "Województwo Pomorskie" : {
+        "R" : 130,
+        "G" : 120,
+        "B" : 64,
+        "PNG_R" : 130,
+        "PNG_G" : 120,
+        "PNG_B" : 64,
+        "PNG_A" : 255,
+        "Tag" : "POM",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

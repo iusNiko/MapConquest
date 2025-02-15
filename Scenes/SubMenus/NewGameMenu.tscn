@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=3 uid="uid://burqyadmipc56"]
+
+[ext_resource type="Script" path="res://Scripts/Menu/MapList.cs" id="2_inkin"]
+[ext_resource type="Script" path="res://Scripts/Menu/LaunchButton.cs" id="3_aqhol"]
+[ext_resource type="FontFile" uid="uid://b2sedwnv1geao" path="res://Data/Fonts/Pixuf.ttf" id="3_tv3pp"]
+[ext_resource type="PackedScene" uid="uid://d3nymnvqqm20c" path="res://Scenes/LoadingScreen.tscn" id="4_pw14f"]
+
+[node name="NewGameMenu" type="CanvasLayer"]
+
+[node name="MapList" type="ItemList" parent="."]
+offset_left = 40.0
+offset_top = 80.0
+offset_right = 424.0
+offset_bottom = 965.0
+theme_override_fonts/font = ExtResource("3_tv3pp")
+theme_override_font_sizes/font_size = 16
+script = ExtResource("2_inkin")
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = 40.0
+offset_top = 13.0
+offset_right = 424.0
+offset_bottom = 70.0
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 11.0
+offset_top = 8.0
+offset_right = 357.0
+offset_bottom = 47.0
+theme_override_fonts/font = ExtResource("3_tv3pp")
+theme_override_font_sizes/font_size = 48
+text = "Map list:"
+
+[node name="Button" type="Button" parent="." node_paths=PackedStringArray("MapList")]
+offset_left = 40.0
+offset_top = 976.0
+offset_right = 424.0
+offset_bottom = 1065.0
+theme_override_fonts/font = ExtResource("3_tv3pp")
+theme_override_font_sizes/font_size = 64
+text = "Launch"
+script = ExtResource("3_aqhol")
+SceneToLoad = ExtResource("4_pw14f")
+MapList = NodePath("../MapList")

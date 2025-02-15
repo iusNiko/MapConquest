@@ -1,0 +1,15 @@
+{
+    "Województwo Śląskie" : {
+        "R" : 255,
+        "G" : 253,
+        "B" : 0,
+        "PNG_R" : 255,
+        "PNG_G" : 253,
+        "PNG_B" : 0,
+        "PNG_A" : 255,
+        "Tag" : "GSL",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

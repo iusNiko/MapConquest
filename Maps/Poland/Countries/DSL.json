@@ -1,0 +1,15 @@
+{
+    "Województwo Dolnośląskie" : {
+        "R" : 151,
+        "G" : 121,
+        "B" : 0,
+        "PNG_R" : 151,
+        "PNG_G" : 121,
+        "PNG_B" : 0,
+        "PNG_A" : 255,
+        "Tag" : "DSL",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

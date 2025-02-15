@@ -1,0 +1,15 @@
+{
+    "Województwo Mazowieckie" : {
+        "R" : 243,
+        "G" : 14,
+        "B" : 0,
+        "PNG_R" : 243,
+        "PNG_G" : 14,
+        "PNG_B" : 0,
+        "PNG_A" : 255,
+        "Tag" : "MAZ",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

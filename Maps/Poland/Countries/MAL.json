@@ -1,0 +1,15 @@
+{
+    "Województwo Małopolskie" : {
+        "R" : 212,
+        "G" : 125,
+        "B" : 98,
+        "PNG_R" : 212,
+        "PNG_G" : 125,
+        "PNG_B" : 98,
+        "PNG_A" : 255,
+        "Tag" : "MAL",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

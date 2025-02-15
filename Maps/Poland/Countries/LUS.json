@@ -1,0 +1,15 @@
+{
+    "Województwo Lubuskie" : {
+        "R" : 134,
+        "G" : 162,
+        "B" : 30,
+        "PNG_R" : 134,
+        "PNG_G" : 162,
+        "PNG_B" : 30,
+        "PNG_A" : 255,
+        "Tag" : "LUS",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

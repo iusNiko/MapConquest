@@ -1,0 +1,15 @@
+{
+    "Województwo Kujawsko-Pomorskie" : {
+        "R" : 104,
+        "G" : 47,
+        "B" : 43,
+        "PNG_R" : 104,
+        "PNG_G" : 47,
+        "PNG_B" : 43,
+        "PNG_A" : 255,
+        "Tag" : "KUJ",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

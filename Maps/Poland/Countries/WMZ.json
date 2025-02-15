@@ -1,0 +1,15 @@
+{
+    "Województwo Warmińsko-Mazurskie" : {
+        "R" : 255,
+        "G" : 83,
+        "B" : 28,
+        "PNG_R" : 255,
+        "PNG_G" : 83,
+        "PNG_B" : 28,
+        "PNG_A" : 255,
+        "Tag" : "WMZ",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

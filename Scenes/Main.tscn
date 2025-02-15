@@ -1,0 +1,175 @@
+[gd_scene load_steps=14 format=3 uid="uid://do1mbyxkxd8et"]
+
+[ext_resource type="Script" path="res://Scripts/GUI/GUI.cs" id="1_owb4f"]
+[ext_resource type="Script" path="res://Scripts/GUI/CountryLabel.cs" id="3_3geuy"]
+[ext_resource type="Script" path="res://Scripts/GUI/PixelLabel.cs" id="4_5c5n3"]
+[ext_resource type="Script" path="res://Scripts/GUI/TPSLabel.cs" id="5_qk3yg"]
+[ext_resource type="Script" path="res://Scripts/GUI/SelectedCountryLabel.cs" id="6_fh7o4"]
+[ext_resource type="FontFile" uid="uid://b2sedwnv1geao" path="res://Data/Fonts/Pixuf.ttf" id="7_3v38o"]
+[ext_resource type="Script" path="res://Scripts/GUI/ActionList.cs" id="7_5g5rd"]
+[ext_resource type="Script" path="res://Scripts/GUI/CountryList.cs" id="8_c8b5y"]
+[ext_resource type="Script" path="res://Scripts/GUI/TerrainList.cs" id="9_1ahd1"]
+[ext_resource type="Script" path="res://Scripts/GUI/BuildingList.cs" id="10_7hl8f"]
+[ext_resource type="Script" path="res://Scripts/GUI/ShowHideUI.cs" id="11_x86ud"]
+[ext_resource type="Script" path="res://Scripts/Map.cs" id="12_a2h1d"]
+[ext_resource type="Script" path="res://Scripts/Camera.cs" id="13_pjiuc"]
+
+[node name="Main" type="Node2D"]
+
+[node name="GUI" type="CanvasLayer" parent="."]
+script = ExtResource("1_owb4f")
+
+[node name="InfoTab" type="Panel" parent="GUI"]
+anchors_preset = -1
+anchor_left = 0.832
+anchor_top = 0.500025
+anchor_right = 0.989
+anchor_bottom = 0.983
+offset_left = 0.536011
+offset_top = -0.0160007
+offset_right = -0.328003
+offset_bottom = 0.0159912
+metadata/_edit_use_anchors_ = true
+
+[node name="CountryLabel" type="RichTextLabel" parent="GUI/InfoTab"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.044
+anchor_top = 0.042
+anchor_right = 0.95
+anchor_bottom = 0.475
+offset_left = 0.0799994
+offset_top = -0.0700006
+offset_right = -1.52588e-05
+offset_bottom = -0.125015
+theme_override_fonts/normal_font = ExtResource("7_3v38o")
+script = ExtResource("3_3geuy")
+
+[node name="PixelLabel" type="RichTextLabel" parent="GUI/InfoTab"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.044
+anchor_top = 0.54
+anchor_right = 0.95
+anchor_bottom = 0.973
+offset_left = 0.0799994
+offset_top = 0.0999603
+offset_right = -1.52588e-05
+offset_bottom = 0.0449524
+theme_override_fonts/normal_font = ExtResource("7_3v38o")
+script = ExtResource("4_5c5n3")
+
+[node name="MetaInfoTab" type="Panel" parent="GUI"]
+anchors_preset = -1
+anchor_left = 0.633
+anchor_top = 0.921
+anchor_right = 0.831
+anchor_bottom = 0.983
+offset_left = -0.216003
+offset_top = 0.191956
+offset_right = -0.312012
+offset_bottom = 0.0159912
+
+[node name="TPSLabel" type="Label" parent="GUI/MetaInfoTab"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.018
+anchor_top = 0.1
+anchor_right = 0.982
+anchor_bottom = 0.875
+offset_left = -0.104
+offset_right = 0.103989
+theme_override_fonts/font = ExtResource("7_3v38o")
+script = ExtResource("5_qk3yg")
+
+[node name="SelectedCountryPanel" type="Panel" parent="GUI"]
+offset_left = 7.0
+offset_top = 7.0
+offset_right = 597.0
+offset_bottom = 75.0
+
+[node name="SelectedCountry" type="Label" parent="GUI/SelectedCountryPanel"]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 7.0
+offset_right = 580.0
+offset_bottom = 58.0
+theme_override_fonts/font = ExtResource("7_3v38o")
+script = ExtResource("6_fh7o4")
+
+[node name="ActionList" type="ItemList" parent="GUI" node_paths=PackedStringArray("BrushSize", "EditWasteland")]
+offset_left = 7.0
+offset_top = 86.0
+offset_right = 187.0
+offset_bottom = 364.0
+theme_override_fonts/font = ExtResource("7_3v38o")
+item_count = 5
+item_0/text = "Attack"
+item_1/text = "Force Peace"
+item_2/text = "Paint Country"
+item_3/text = "Paint Terrain"
+item_4/text = "Paint Buildings"
+script = ExtResource("7_5g5rd")
+BrushSize = NodePath("../BrushSize")
+EditWasteland = NodePath("../EditWastelandPanel/EditWasteland")
+
+[node name="BrushSize" type="LineEdit" parent="GUI"]
+offset_left = 196.0
+offset_top = 86.0
+offset_right = 286.0
+offset_bottom = 117.0
+theme_override_fonts/font = ExtResource("7_3v38o")
+placeholder_text = "Brush Size"
+
+[node name="EditWastelandPanel" type="Panel" parent="GUI"]
+offset_left = 196.0
+offset_top = 124.0
+offset_right = 340.0
+offset_bottom = 155.0
+
+[node name="EditWasteland" type="CheckBox" parent="GUI/EditWastelandPanel"]
+layout_mode = 0
+offset_right = 144.0
+offset_bottom = 31.0
+theme_override_fonts/font = ExtResource("7_3v38o")
+text = "Edit Wasteland"
+
+[node name="CountryList" type="ItemList" parent="GUI"]
+offset_left = 345.0
+offset_top = 90.0
+offset_right = 734.0
+offset_bottom = 364.0
+theme_override_fonts/font = ExtResource("7_3v38o")
+script = ExtResource("8_c8b5y")
+
+[node name="TerrainList" type="ItemList" parent="GUI"]
+offset_left = 345.0
+offset_top = 90.0
+offset_right = 734.0
+offset_bottom = 364.0
+theme_override_fonts/font = ExtResource("7_3v38o")
+script = ExtResource("9_1ahd1")
+
+[node name="BuildingList" type="ItemList" parent="GUI"]
+offset_left = 345.0
+offset_top = 90.0
+offset_right = 734.0
+offset_bottom = 364.0
+theme_override_fonts/font = ExtResource("7_3v38o")
+script = ExtResource("10_7hl8f")
+
+[node name="ShowHideUI" type="Button" parent="GUI"]
+offset_left = 7.0
+offset_top = 1041.0
+offset_right = 120.0
+offset_bottom = 1072.0
+theme_override_fonts/font = ExtResource("7_3v38o")
+text = "Show/Hide UI"
+script = ExtResource("11_x86ud")
+
+[node name="Map" type="Node2D" parent="."]
+script = ExtResource("12_a2h1d")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
+script = ExtResource("13_pjiuc")

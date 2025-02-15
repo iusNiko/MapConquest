@@ -1,0 +1,15 @@
+{
+    "Województwo Łódzkie" : {
+        "R" : 255,
+        "G" : 178,
+        "B" : 98,
+        "PNG_R" : 255,
+        "PNG_G" : 178,
+        "PNG_B" : 98,
+        "PNG_A" : 255,
+        "Tag" : "LOD",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

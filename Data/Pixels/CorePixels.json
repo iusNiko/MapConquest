@@ -1,0 +1,39 @@
+{
+    "Wasteland" : {
+        "R" : 100,
+        "G" : 100,
+        "B" : 100,
+        "PNG_R" : 0,
+        "PNG_G" : 0,
+        "PNG_B" : 0,
+        "PNG_A" : 255,
+        "Production" : {
+
+        }
+    },
+    "Plains" : {
+        "R" : 255,
+        "G" : 255,
+        "B" : 255,
+        "PNG_R" : 255,
+        "PNG_G" : 255,
+        "PNG_B" : 255,
+        "PNG_A" : 255,
+        "Production" : {
+            "Gold" : 200,
+            "Manpower" : 250
+        }
+    },
+    "Hills" : {
+        "R" : 180,
+        "G" : 180,
+        "B" : 180,
+        "PNG_R" : 180,
+        "PNG_G" : 180,
+        "PNG_B" : 180,
+        "PNG_A" : 255,
+        "Production" : {
+            "Gold" : 600
+        }
+    }
+}

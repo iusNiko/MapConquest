@@ -1,0 +1,32 @@
+{
+    "Barracks" : {
+        "Cost" : {
+            "Gold" : 1000
+        },
+        "Production" : {
+            "Manpower" : 200
+        },
+        "R" : 220,
+        "G" : 220,
+        "B" : 220,
+        "PNG_R" : 255,
+        "PNG_G" : 0,
+        "PNG_B" : 0,
+        "PNG_A" : 255
+    },
+    "Factory" : {
+        "Cost" : {
+            "Gold" : 1000
+        },
+        "Production" : {
+            "Gold" : 200
+        },
+        "R" : 220,
+        "G" : 220,
+        "B" : 220,
+        "PNG_R" : 255,
+        "PNG_G" : 255,
+        "PNG_B" : 0,
+        "PNG_A" : 255
+    }
+}

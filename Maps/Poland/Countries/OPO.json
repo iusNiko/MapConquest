@@ -1,0 +1,15 @@
+{
+    "Województwo Opolskie" : {
+        "R" : 183,
+        "G" : 255,
+        "B" : 0,
+        "PNG_R" : 183,
+        "PNG_G" : 255,
+        "PNG_B" : 0,
+        "PNG_A" : 255,
+        "Tag" : "OPO",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}

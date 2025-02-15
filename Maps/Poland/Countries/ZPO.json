@@ -1,0 +1,15 @@
+{
+    "Województwo Zachodnio-Pomorskie" : {
+        "R" : 171,
+        "G" : 64,
+        "B" : 50,
+        "PNG_R" : 171,
+        "PNG_G" : 64,
+        "PNG_B" : 50,
+        "PNG_A" : 255,
+        "Tag" : "ZPO",
+        "Attack" : 100,
+        "Defense" : 100,
+        "Initiative" : 100
+    }
+}
